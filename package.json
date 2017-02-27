@@ -1,6 +1,6 @@
 {
   "name": "keycloak-auth-utils",
-  "version": "3.0.0",
+  "version": "2.5.3-Final-redhat-1",
   "description": "Keycloak OAuth client.",
   "keywords": [
     "keycloak",
