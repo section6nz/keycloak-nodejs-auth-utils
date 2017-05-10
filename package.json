@@ -1,6 +1,6 @@
 {
   "name": "keycloak-auth-utils",
-  "version": "3.0.0-Final-redhat-1",
+  "version": "3.1.1-Final-redhat-1",
   "description": "Keycloak OAuth client.",
   "keywords": [
     "keycloak",
@@ -21,7 +21,7 @@
     "test": "tape test/integration/*-spec.js | tap-spec && tape test/unit/*-test.js | tap-spec",
     "lint": "jshint *.js lib/*.js test/**/*.js",
     "format": "semistandard",
-    "prepublish": "nsp check",
+    "nsp-check": "nsp check",
     "docs": "jsdoc --verbose -d docs -t ./node_modules/ink-docstrap/template -R README.md index.js ./lib/*.js",
     "coverage": "istanbul cover tape -- test/unit/*.js | istanbul cover tape -- test/integration/*.js",
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
